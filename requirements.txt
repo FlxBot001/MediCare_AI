@@ -1,0 +1,65 @@
+# Web Framework and Backend
+Django
+djangorestframework
+django-cors-headers
+
+# AI and Machine Learning
+tensorflow>=2.12.0
+torch>=2.0.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# NLP
+transformers>=4.34.0
+nltk>=3.8.0
+
+# IoT and Messaging
+paho-mqtt>=1.6.1
+requests>=2.31.0
+
+# Database
+psycopg2-binary>=2.9.7  # For PostgreSQL
+sqlite-utils>=3.33.0
+
+# Frontend Integration
+django-webpack-loader>=1.8.0
+
+# Security and Authentication
+django-allauth>=0.54.0
+djangorestframework-simplejwt>=5.3.0
+
+# Telemedicine and Real-Time Communication
+channels>=4.0.0
+channels-redis>=4.0.0
+
+# Blockchain and Decentralized Storage
+web3>=6.6.0
+
+# Cloud and Deployment
+boto3>=1.28.0  # AWS SDK for Python
+docker>=6.1.0
+gunicorn>=20.1.0  # WSGI HTTP Server
+
+# Utilities
+python-decouple>=3.8  # For environment variable management
+django-environ>=0.10.0
+celery>=5.3.0  # Task queue for async jobs
+flower>=1.0.0  # Celery monitoring
+drf-yasg>=1.23.0  # API documentation
+
+# Testing
+pytest>=7.5.0
+pytest-django>=4.5.2
+pytest-cov>=4.1.0
+
+# Monitoring and Logging
+sentry-sdk>=1.28.0
+django-health-check>=5.3.0
+
+# Linting and Code Quality
+black>=23.9.1
+flake8>=6.1.0
+
+# For Development
+ipython>=8.17.0

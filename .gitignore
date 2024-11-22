@@ -1,0 +1,102 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# If using PostgreSQL
+*.pgdata
+
+# Environment variables
+.env
+*.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python dependency files
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Node.js dependencies (for frontend integration)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Frontend build artifacts
+/static/
+*.map
+*.css
+*.js
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Testing artifacts
+.tox/
+.cache/
+pytest_cache/
+*.cover
+*.coverage
+nosetests.xml
+test-results.xml
+junit*.xml
+
+# Linting reports
+*.flake8
+*.mypy_cache/
+*.pylint.d/
+
+# Sentry
+*.sentryclirc
+
+# Logs
+*.log
+logs/
+
+# Data files
+*.csv
+*.hdf5
+*.jsonl
+
+# Machine Learning artifacts
+*.model
+*.ckpt
+*.h5
+*.pb
+tensorboard_logs/
+saved_models/
